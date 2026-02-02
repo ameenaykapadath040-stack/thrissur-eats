@@ -1,0 +1,213 @@
+export const CATEGORIES = [
+    "All",
+    "Starters",
+    "Main Course",
+    "Breads",
+    "Curries",
+    "Biryani",
+    "Desserts",
+    "Drinks"
+];
+
+export const MENU_ITEMS = [
+    {
+        id: 1,
+        name: "Kerala Beef Fry",
+        category: "Starters",
+        description: "Spicy dry fried beef with coconut slivers and curry leaves.",
+        price: 280,
+        image: "https://images.unsplash.com/photo-1626777552726-4a6592473863?q=80&w=2070&auto=format&fit=crop",
+        isVeg: false,
+        rating: 4.9
+    },
+    {
+        id: 2,
+        name: "Chicken 65",
+        category: "Starters",
+        description: "Deep-fried spicy chicken marinated in ginger, lemon, red chiles.",
+        price: 240,
+        image: "https://images.unsplash.com/photo-1610057099443-fde8c4d50f91?q=80&w=2070&auto=format&fit=crop",
+        isVeg: false,
+        rating: 4.7
+    },
+    {
+        id: 11,
+        name: "Kerala Prawn Roast",
+        category: "Starters",
+        description: "Juicy prawns marinated in spices and roasted with curry leaves.",
+        price: 350,
+        image: "https://images.unsplash.com/photo-1559847844-5315695dadae?q=80&w=2058&auto=format&fit=crop",
+        isVeg: false,
+        rating: 4.8
+    },
+    {
+        id: 12,
+        name: "Pazham Pori (Banana Fry)",
+        category: "Starters",
+        description: "Ripe plantains dipped in batter and deep-fried to golden perfection.",
+        price: 80,
+        image: "https://images.unsplash.com/photo-1626201658402-995f549c4033?q=80&w=2070&auto=format&fit=crop",
+        isVeg: true,
+        rating: 4.6
+    },
+    {
+        id: 3,
+        name: "Appam & Stew",
+        category: "Main Course",
+        description: "Soft rice pancakes with creamy coconut milk vegetable stew.",
+        price: 220,
+        image: "https://images.unsplash.com/photo-1647493549646-95b778619623?q=80&w=2070&auto=format&fit=crop",
+        isVeg: true,
+        rating: 4.8
+    },
+    {
+        id: 5,
+        name: "Puttu & Kadala",
+        category: "Main Course",
+        description: "Steamed rice cake cylinders with spicy black chickpea curry.",
+        price: 180,
+        image: "https://images.unsplash.com/photo-1659275956041-03013d5d9c28?q=80&w=2072&auto=format&fit=crop",
+        isVeg: true,
+        rating: 4.6
+    },
+    {
+        id: 6,
+        name: "Karimeen Pollichathu",
+        category: "Main Course",
+        description: "Pearl spot fish marinated and grilled in banana leaf.",
+        price: 450,
+        image: "https://images.unsplash.com/photo-1662998341142-f83138b320d3?q=80&w=2070&auto=format&fit=crop",
+        isVeg: false,
+        rating: 4.9
+    },
+    {
+        id: 13,
+        name: "Ghee Roast Dosa",
+        category: "Main Course",
+        description: "Crispy fermented crepe made from rice batter and black lentils, topped with ghee.",
+        price: 150,
+        image: "https://images.unsplash.com/photo-1668236543090-d2f496d37ccc?q=80&w=2070&auto=format&fit=crop",
+        isVeg: true,
+        rating: 4.7
+    },
+    {
+        id: 14,
+        name: "Kappa Biryani (Ellum Kappayum)",
+        category: "Main Course",
+        description: "A soulful mix of mashed tapioca and spicy beef curry.",
+        price: 260,
+        image: "https://images.unsplash.com/photo-1626776785834-874271891782?q=80&w=2070&auto=format&fit=crop",
+        isVeg: false,
+        rating: 4.9
+    },
+    {
+        id: 4,
+        name: "Thalassery Chicken Biryani",
+        category: "Biryani",
+        description: "Aromatic short-grain rice layered with spicy chicken masala.",
+        price: 320,
+        image: "https://images.unsplash.com/photo-1633945274405-b6c8069047b0?q=80&w=2070&auto=format&fit=crop",
+        isVeg: false,
+        rating: 5.0
+    },
+    {
+        id: 15,
+        name: "Malabar Mutton Biryani",
+        category: "Biryani",
+        description: "Flavorful kaima rice cooked with tender mutton and spices.",
+        price: 380,
+        image: "https://images.unsplash.com/photo-1647488099839-8677c772c722?q=80&w=2070&auto=format&fit=crop",
+        isVeg: false,
+        rating: 4.9
+    },
+    {
+        id: 7,
+        name: "Kerala Parotta",
+        category: "Breads",
+        description: "Flaky, layered flatbread made with flour.",
+        price: 40,
+        image: "https://images.unsplash.com/photo-1645177628172-eaca789bd008?q=80&w=2070&auto=format&fit=crop",
+        isVeg: true,
+        rating: 4.8
+    },
+    {
+        id: 16,
+        name: "Idiyappam (String Hoppers)",
+        category: "Breads",
+        description: "Steamed rice noodles, perfect with vegetable or meat curries.",
+        price: 120,
+        image: "https://images.unsplash.com/photo-1616044719588-66258957488c?q=80&w=2070&auto=format&fit=crop",
+        isVeg: true,
+        rating: 4.5
+    },
+    {
+        id: 8,
+        name: "Fish Curry (Meen Curry)",
+        category: "Curries",
+        description: "Spicy and tangy fish curry made with kudampuli (cocum).",
+        price: 350,
+        image: "https://images.unsplash.com/photo-1631452180519-c014fe946bc7?q=80&w=2070&auto=format&fit=crop",
+        isVeg: false,
+        rating: 4.7
+    },
+    {
+        id: 17,
+        name: "Fish Molley",
+        category: "Curries",
+        description: "Mild and creamy fish stew made with coconut milk.",
+        price: 380,
+        image: "https://images.unsplash.com/photo-1596797038530-2c107229654b?q=80&w=2070&auto=format&fit=crop",
+        isVeg: false,
+        rating: 4.8
+    },
+    {
+        id: 10,
+        name: "Ada Pradhaman (Payasam)",
+        category: "Desserts",
+        description: "Traditional sweet dessert with rice flakes, jaggery and coconut milk.",
+        price: 150,
+        image: "https://images.unsplash.com/photo-1627376717586-e8d193c7a387?q=80&w=2070&auto=format&fit=crop",
+        isVeg: true,
+        rating: 4.9
+    },
+    {
+        id: 18,
+        name: "Unniyappam",
+        category: "Desserts",
+        description: "Sweet fritters made from rice, jaggery, banana, and coconut.",
+        price: 100,
+        image: "https://images.unsplash.com/photo-1655097491763-71887394c86d?q=80&w=2070&auto=format&fit=crop",
+        isVeg: true,
+        rating: 4.7
+    },
+    {
+        id: 9,
+        name: "Kulukkki Sarbath",
+        category: "Drinks",
+        description: "Shaken lemonade with basil seeds and green chili.",
+        price: 90,
+        image: "https://upload.wikimedia.org/wikipedia/commons/2/22/Kulukki_Sarbath_from_Kerala.jpg",
+        isVeg: true,
+        rating: 4.5
+    },
+    {
+        id: 19,
+        name: "Sambharam (Spiced Buttermilk)",
+        category: "Drinks",
+        description: "Refreshing salted buttermilk with ginger, chili and curry leaves.",
+        price: 60,
+        image: "https://images.unsplash.com/photo-1652614522968-30500beec0c5?q=80&w=2070&auto=format&fit=crop",
+        isVeg: true,
+        rating: 4.6
+    },
+    {
+        id: 20,
+        name: "Royal Falooda",
+        category: "Drinks",
+        description: "Layered cold dessert drink with vermicelli, rose syrup, and ice cream.",
+        price: 180,
+        image: "https://images.unsplash.com/photo-1563227812-0ea4c22e6cc8?q=80&w=2070&auto=format&fit=crop",
+        isVeg: true,
+        rating: 4.9
+    }
+];
